@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce Website</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Fije apparel</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cart.html"
+              >Cart (<span id="cart-count">0</span>)</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="bg-primary text-white text-center py-5">
+      <div class="container">
+        <h1>Welcome to Fije apparel</h1>
+        <p class="lead">Find the best products here</p>
+      </div>
+    </header>
+
+    <!-- Products Section -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <!-- Example Product 1 -->
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img
+                class="card-img-top"
+                src="images/product1.png"
+                alt="Product 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Product 1</h5>
+                <p class="card-text">$10.00</p>
+                <a
+                  href="#"
+                  class="btn btn-primary add-to-cart"
+                  data-id="1"
+                  data-name="Product 1"
+                  data-price="10.00"
+                  >Add to Cart</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Example Product 2 -->
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img
+                class="card-img-top"
+                src="images/product2.png"
+                alt="Product 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Product 2</h5>
+                <p class="card-text">$20.00</p>
+                <a
+                  href="#"
+                  class="btn btn-primary add-to-cart"
+                  data-id="2"
+                  data-name="Product 2"
+                  data-price="20.00"
+                  >Add to Cart</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Example Product 3 -->
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img
+                class="card-img-top"
+                src="images/product3.png"
+                alt="Product 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Product 3</h5>
+                <p class="card-text">$30.00</p>
+                <a
+                  href="#"
+                  class="btn btn-primary add-to-cart"
+                  data-id="3"
+                  data-name="Product 3"
+                  data-price="30.00"
+                  >Add to Cart</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Example Product 4 -->
+          <div class="col-md-3">
+            <div class="card mb-4">
+              <img
+                class="card-img-top"
+                src="images/product4.png"
+                alt="Product 4"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Product 4</h5>
+                <p class="card-text">$40.00</p>
+                <a
+                  href="#"
+                  class="btn btn-primary add-to-cart"
+                  data-id="4"
+                  data-name="Product 4"
+                  data-price="40.00"
+                  >Add to Cart</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Example Product 5 -->
+          <div class="col-md-3">
+            <div class="card mb-4">
+              <img
+                class="card-img-top"
+                src="images/product5.png"
+                alt="Product 5"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Product 5</h5>
+                <p class="card-text">$50.00</p>
+                <a
+                  href="#"
+                  class="btn btn-primary add-to-cart"
+                  data-id="5"
+                  data-name="Product 5"
+                  data-price="50.00"
+                  >Add to Cart</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Example Product 6 -->
+          <div class="col-md-3">
+            <div class="card mb-4">
+              <img
+                class="card-img-top"
+                src="images/product6.png"
+                alt="Product 6"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Product 6</h5>
+                <p class="card-text">$60.00</p>
+                <a
+                  href="#"
+                  class="btn btn-primary add-to-cart"
+                  data-id="6"
+                  data-name="Product 6"
+                  data-price="60.00"
+                  >Add to Cart</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Example Product 7 -->
+          <div class="col-md-3">
+            <div class="card mb-4">
+              <img
+                class="card-img-top"
+                src="images/product7.png"
+                alt="Product 7"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Product 7</h5>
+                <p class="card-text">$70.00</p>
+                <a
+                  href="#"
+                  class="btn btn-primary add-to-cart"
+                  data-id="7"
+                  data-name="Product 7"
+                  data-price="70.00"
+                  >Add to Cart</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Example Product 8 -->
+          <div class="col-md-3">
+            <div class="card mb-4">
+              <img
+                class="card-img-top"
+                src="images/product8.png"
+                alt="Product 8"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Product 8</h5>
+                <p class="card-text">$80.00</p>
+                <a
+                  href="#"
+                  class="btn btn-primary add-to-cart"
+                  data-id="8"
+                  data-name="Product 8"
+                  data-price="80.00"
+                  >Add to Cart</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Example Product 9 -->
+          <div class="col-md-3">
+            <div class="card mb-4">
+              <img
+                class="card-img-top"
+                src="images/product9.png"
+                alt="Product 9"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Product 9</h5>
+                <p class="card-text">$90.00</p>
+                <a
+                  href="#"
+                  class="btn btn-primary add-to-cart"
+                  data-id="9"
+                  data-name="Product 9"
+                  data-price="90.00"
+                  >Add to Cart</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Example Product 10 -->
+          <div class="col-md-3">
+            <div class="card mb-4">
+              <img
+                class="card-img-top"
+                src="images/product10.png"
+                alt="Product 10"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Product 10</h5>
+                <p class="card-text">$100.00</p>
+                <a
+                  href="#"
+                  class="btn btn-primary add-to-cart"
+                  data-id="10"
+                  data-name="Product 10"
+                  data-price="100.00"
+                  >Add to Cart</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Example Product 11 -->
+          <div class="col-md-3">
+            <div class="card mb-4">
+              <img
+                class="card-img-top"
+                src="images/product11.png"
+                alt="Product 11"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Product 11</h5>
+                <p class="card-text">$110.00</p>
+                <a
+                  href="#"
+                  class="btn btn-primary add-to-cart"
+                  data-id="11"
+                  data-name="Product 11"
+                  data-price="110.00"
+                  >Add to Cart</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Example Product 12 -->
+          <div class="col-md-3">
+            <div class="card mb-4">
+              <img
+                class="card-img-top"
+                src="images/product12.png"
+                alt="Product 12"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Product 12</h5>
+                <p class="card-text">$120.00</p>
+                <a
+                  href="#"
+                  class="btn btn-primary add-to-cart"
+                  data-id="12"
+                  data-name="Product 12"
+                  data-price="120.00"
+                  >Add to Cart</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-4">
+      <div class="container">
+        <p class="mb-0">© 2023 Fijeapparel. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
